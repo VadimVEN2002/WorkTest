@@ -34,7 +34,7 @@ namespace _Приложение_из_примера_по_курсовой.Model
             if (date > now) age--;
             return age;
         }
-        public string ShowStudent() //метод для вывода информации о студенте
+        public string ShowStudent() // метод для вывода информации о студенте
         {
             string s = $"Фамилия: {surname}\n";
             s += $"Имя: {name}\n";
